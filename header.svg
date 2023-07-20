@@ -30,10 +30,22 @@
                 border-color: transparent
             }
             }
+
+        .hi {
+          animation: hi 1.5s linear -0.5s infinite;
+          display: inline-block;
+          transform-origin: 70% 70%;
+        }
+
+        @media (prefers-reduced-motion) {
+          .hi {
+            animation: none;
+          }
+        }
       </style>
     <div class="wrapper">
         <div class="typing">
-            Hi I'm Scott Cole.
+            Hello Everyone hope you are well! <div class="hi">👋</div>
         </div>
      </div>
     </div>
