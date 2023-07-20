@@ -1,13 +1,12 @@
-<center>
+<p align="center">
+  <img src="logo.svg" alt="Click to see the source" width="20%">
+</p>
+<p align="center">
+  <img src="header.svg" alt="Click to see the source" width="50%">
+</p>
 
-<div style="width: 100%;">
-  <img src="logo.svg" style="width: 20%;" alt="Click to see the source">
-</div>
-<div style="width: 100%;">
-  <img src="header.svg" style="width: 50%;" alt="Click to see the source">
-</div>
 
-</center>
+
 
 
 
