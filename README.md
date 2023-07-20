@@ -1,5 +1,5 @@
 
-<div style="width: 100%;">
+<div style="width: 50%;">
   <img src="logo.svg" style="width: 100%;" alt="Click to see the source">
 </div>
 <div style="width: 100%;">
