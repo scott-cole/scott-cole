@@ -1,0 +1,87 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" width="168.415" height="192.927" viewBox="0 0 168.415 192.927">
+        <style>
+            body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }
+
+            #logo {
+            height: 300px;
+            width: 300px;
+            }
+
+            #logo path:nth-child(1) {
+            stroke-dasharray: 500px;
+            stroke-dashoffset: 500px;
+            animation: line-anim 2s ease forwards, fill-green 0.5s ease forwards 3s;
+            }
+
+            #logo path:nth-child(2) {
+            stroke-dasharray: 500px;
+            stroke-dashoffset: 500px;
+            animation: line-anim 2s ease forwards 0.3s, fill-blue 0.5s ease forwards 3s;
+            }
+
+            #logo path:nth-child(3) {
+            stroke-dasharray: 100px;
+            stroke-dashoffset: 100px;
+            animation: line-anim 2s ease forwards 0.6s, fill-blue 0.5s ease forwards 3s;
+            }
+
+            #logo path:nth-child(4) {
+            stroke-dasharray: 400px;
+            stroke-dashoffset: 400px;
+            animation: line-anim 2s ease forwards 0.9s, fill-blue 0.5s ease forwards 3s;
+            }
+
+            #logo path:nth-child(5) {
+            stroke-dasharray: 900px;
+            stroke-dashoffset: 900px;
+            animation: line-anim 2s ease forwards 1.2s, fill-green 0.5s ease forwards 3s;
+            }
+
+            @keyframes line-anim {
+            to {
+                stroke-dashoffset: 0;
+            }
+            }
+
+            @keyframes fill-green {
+            from {
+                fill: transparent;
+            }
+            to {
+                fill: #4dccbd;
+            }
+            }
+
+            @keyframes fill-blue {
+            from {
+                fill: transparent;
+            }
+            to {
+                fill: #182b52;
+            }
+            }
+
+            @keyframes spin {
+            from { 
+                transform: rotate(0deg);
+            }
+                to { 
+                    transform: rotate(360deg);
+            }
+            }
+        </style>
+
+    <g id="Group_43" data-name="Group 43" transform="translate(-75.901 -88.423)">
+        <path id="Path_1" data-name="Path 1" d="M397.421,283.948l72.183,42.42-.492,55.059,10.665,6.268.6-67.4-82.848-48.688-58.839,33.178,10.665,6.268Z" transform="translate(-236.566 -182.605)" fill="transparent" stroke="#4dccbd" stroke-width="1"/>
+        <path id="Path_2" data-name="Path 2" d="M404.984,424.389,332.8,381.968l.492-55.059-10.665-6.268-.6,67.4,82.848,48.688,58.839-33.177-10.665-6.268Z" transform="translate(-245.623 -155.959)" fill="transparent" stroke="#182b52" stroke-width="1"/>
+        <path id="Path_3" data-name="Path 3" d="M344.06,304.517,333.4,298.249l-10.775,6.076-.11,12.343,10.665,6.268.11-12.343Z" transform="translate(-245.36 -168.126)" fill="transparent" stroke="#182b52" stroke-width="1"/>
+        <path id="Path_4" data-name="Path 4" d="M393.666,279.6,345.6,306.7l10.665,6.268,37.289-21.026L455.074,328.1l-.382,42.716,10.665,6.267.492-55.059Z" transform="translate(-232.811 -178.259)" fill="transparent" stroke="#182b52" stroke-width="1"/>
+        <path id="Path_5" data-name="Path 5" d="M351.194,306.371l-10.775,6.076-.11,12.344L452.68,390.829l-14.091,7.945L401.3,419.8l-61.518-36.152.382-42.716L329.5,334.664l-.492,55.059,72.183,42.42,48.064-27.1,14.091-7.945,10.775-6.076.11-12.343-10.665-6.267Z" transform="translate(-241.829 -163.713)" fill="transparent" stroke="#4dccbd" stroke-width="1"/>
+    </g>
+</svg>
