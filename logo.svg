@@ -9,8 +9,8 @@
             }
 
             #logo {
-            height: 300px;
-            width: 300px;
+            height: 100px;
+            width: 100px;
             }
 
             #logo path:nth-child(1) {
