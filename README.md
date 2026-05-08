@@ -12,7 +12,7 @@
 
 ### About me
 
-Building polished, performant user interfaces for games-industry web platforms. Day-to-day I work across the modern front-end stack, with a growing interest in Go for tooling and back-end services.
+Building polished, performant user interfaces for web platforms. Day-to-day I work across the modern front-end stack, with a growing interest in Go for tooling and back-end services.
 
 ---
 
