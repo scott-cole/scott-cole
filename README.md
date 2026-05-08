@@ -52,9 +52,3 @@ Building polished, performant user interfaces for games-industry web platforms. 
 </picture>
 
 ---
-
-<div align="center">
-
-[![X (Twitter)](https://img.shields.io/badge/@Scott_Codes-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Scott_Codes)
-
-</div>
